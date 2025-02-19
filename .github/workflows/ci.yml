@@ -7,7 +7,7 @@ on:
         - "main"
 
 env:
-    TF_API_KEY: ${{ secrets.TF_API_KEY }}
+    TF_VAR_API_KEY: ${{ secrets.TF_API_KEY }}
 
 jobs:
     terraform:
